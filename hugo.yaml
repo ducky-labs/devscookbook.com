@@ -1,12 +1,12 @@
-baseURL: https://example.docsy.dev
-title: Goldydocs
+baseURL: https://devscookbook.com
+title: DevsCookbook
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
 # Language settings
 contentDir: content/en
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 # Useful when translating.
 enableMissingTranslationPlaceholders: true
 
@@ -35,6 +35,7 @@ pygmentsStyle: tango
 # Configure how URLs look like per section.
 permalinks:
   blog: /:section/:year/:month/:day/:slug/
+  docs: /:section/:slug/
 
 # Image processing configuration.
 imaging:
@@ -46,27 +47,27 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: DevsCookbook
     params:
-      description: A Docsy example site
+      description: Documentation and blog posts for all things tech and developer related.
   # cSpell:disable
-  'no':
-    languageName: Norsk
-    contentDir: content/no
-    title: Gulldoks
-    params:
-      description: Docsy er operativsystem for skyen
-      time_format_default: 02.01.2006
-      time_format_blog: 02.01.2006
-  fa:
-    languageDirection: rtl
-    languageName: 'فارسی (Persian)'
-    contentDir: content/fa
-    title: 'اسناد گلدی'
-    params:
-      description: 'یک نمونه برای پوسته داکسی'
-      time_format_default: 2006.01.02
-      time_format_blog: 2006.01.02
+  # 'no':
+  #   languageName: Norsk
+  #   contentDir: content/no
+  #   title: Gulldoks
+  #   params:
+  #     description: Docsy er operativsystem for skyen
+  #     time_format_default: 02.01.2006
+  #     time_format_blog: 02.01.2006
+  # fa:
+  #   languageDirection: rtl
+  #   languageName: 'فارسی (Persian)'
+  #   contentDir: content/fa
+  #   title: 'اسناد گلدی'
+  #   params:
+  #     description: 'یک نمونه برای پوسته داکسی'
+  #     time_format_default: 2006.01.02
+  #     time_format_blog: 2006.01.02
   # cSpell:enable
 
 markup:

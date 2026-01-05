@@ -1,5 +1,5 @@
 ---
-title: Goldydocs
+title: devscookbook.com
 ---
 
 <style>
@@ -8,15 +8,17 @@ title: Goldydocs
   }
 </style>
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
+{{< blocks/cover image_anchor="top" height="full" >}}
+
+<h1 class="me-3 mb-4 text fw-bold text-white bg-dark bg-opacity-10 px-3 py-2 display-4 rounded">Welcome to DevsCookbook!</h1>
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="/blog/">
+  Read More <i class="fa-solid fa-blog ms-2 "></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+<p class="lead mt-5">Learn about all things tech and dev related, contribute and suggest other guides or posts you'd like to see here.</p>
 
 {{< blocks/link-down color="info" >}} {{< /blocks/cover >}}
 
